@@ -1,0 +1,24 @@
+.mainDiv {
+    background-color: antiquewhite;
+}
+
+.list {
+    display: flex;
+    height: 96vh;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 1rem
+}
+
+.projects {
+    width: 150px;
+    height: 150px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
