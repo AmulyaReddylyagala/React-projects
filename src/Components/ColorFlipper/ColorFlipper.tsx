@@ -7,7 +7,7 @@ enum TABS {
 export default function ColorFlipper() {
     const colors: string[] = ['aqua', 'red', 'pink', 'blue', 'orange', 'yellow']
 
-    const [color, setColor] = useState('yellow');
+    const [color, setColor] = useState<string>('yellow');
     const [selectedTab, setSelectedTab] = useState<TABS>(TABS.SIMPLE);
     const isFirstTimeRender = useRef<boolean>(true);
 
